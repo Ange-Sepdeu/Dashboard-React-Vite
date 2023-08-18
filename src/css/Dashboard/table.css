@@ -1,0 +1,29 @@
+.table {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+    .table {
+        width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+      .table {
+        width: 40%;
+        display: none;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .table {
+        display: none;
+      }
+  }
+  
+  @media screen and (max-width: 1280px) {
+      
+  }
+  
+  @media screen and (min-width: 1281px) {
+      
+  }

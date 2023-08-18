@@ -1,0 +1,47 @@
+.left-message-container {
+    background-color: white;
+    align-self: self-start;
+}
+
+.left-message-container, .right-message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5vh;
+    padding: 7px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.right-message-container {
+    background-color: rgb(98, 242, 8);
+    align-self: self-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin:  0 auto;
+}
+
+.favorite {
+    color: red;
+}
+
+.message-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5vh;
+}
+.right-message-container span {
+    color: white;
+}

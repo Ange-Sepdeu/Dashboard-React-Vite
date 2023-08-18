@@ -1,0 +1,60 @@
+.single-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 2vh;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.single-contact-container:hover {
+    background-color: rgb(158, 195, 232);
+}
+.single-contact-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.single-contact-right {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.single-contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.contact-header{
+    font-size: 15px;
+    font-weight: 700;
+}
+.chat-time {
+    font-size: 12px;
+    color: rgb(184, 183, 183);
+}
+.single-contact-last-message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    width: 90%;
+}
+.single-contact-last-message-container div {
+    font-size: 14px;
+    color: rgb(184, 183, 183);
+}
+.single-contact-last-message-container span {
+    color: white;
+    background-color: rgb(89, 243, 6);
+    padding: 2px;
+    text-align: center;
+    width: 16px; 
+    border-radius: 50%;
+}

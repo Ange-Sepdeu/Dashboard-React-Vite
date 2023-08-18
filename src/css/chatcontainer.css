@@ -1,0 +1,61 @@
+.main-right {
+    width: 72%;
+    background-color: rgb(83, 152, 212);
+}
+
+.send-message-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 65%;
+    padding: 7px;
+    border-radius: 7px;
+    position: absolute;
+    top: 87%;
+    left: 30%; 
+}
+
+.icons {
+    color: rgb(88, 87, 87);
+}
+
+.date {
+    background-color: rgb(15, 92, 168);
+    margin: 0 auto;
+    margin-top: 40vh;
+    text-align: center;
+    width: 15%;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.message-container {
+    height: 75vh;
+    overflow-y: auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    .main-right {
+        display: none;
+    }
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(54, 118, 175);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(99, 159, 211);
+    border-radius: 10px;
+}

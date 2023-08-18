@@ -1,0 +1,40 @@
+.form-input {
+    border-radius: 7px;
+    border: 2px solid rgb(181, 179, 179);
+    outline: none;
+    width: 90%;
+    margin-bottom: 1vh;
+    padding: 15px;
+}
+
+.error-input {
+    border-radius: 7px;
+    border: 2px solid tomato;
+    outline: none;
+    width: 90%;
+    margin-bottom: 1vh;
+    padding: 15px;
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+    width: 80%;
+    outline: none;
+}
+
+.input-container {
+    margin-bottom: 3vh;
+}
+
+.message-input {
+    outline: none;
+    width: 90%;
+    border: none;
+    padding: 10px;
+}
+
+.errors {
+    color: tomato;
+    margin-bottom: 3vh;
+}

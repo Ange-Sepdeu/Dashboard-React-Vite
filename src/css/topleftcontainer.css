@@ -1,0 +1,28 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+}
+
+* {
+    cursor: pointer;
+}
+
+.search-bar-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgb(230, 230, 230);
+}
+
+.menu {
+    color: rgb(116, 115, 115);
+}

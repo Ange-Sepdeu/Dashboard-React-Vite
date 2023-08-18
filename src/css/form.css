@@ -1,0 +1,25 @@
+.form-container {
+    margin:  0 auto;
+    background-color: white;
+    padding: 24px;
+    width: 40%;
+    margin-top: 5vh;
+    box-shadow: 4px 4px 22px 2px rgb(165, 164, 164);
+}
+.form-container h2 {
+    font-size: 38px;
+    color: #5CD2C6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 700;
+}

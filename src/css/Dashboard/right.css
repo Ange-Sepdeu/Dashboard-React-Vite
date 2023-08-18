@@ -1,0 +1,370 @@
+.header-light {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+    font-size: 12px;
+}
+
+.header-dark {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 18%;
+    font-size: 12px;
+}
+
+.current{
+    color:  #0043FF;
+    font-weight: 600;
+}
+
+.right-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    height: 55vh;
+    flex-wrap: wrap;
+}
+
+.left-card-container {
+    width: 20%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.charts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+}
+
+.right-container {
+    margin-top: 15vh;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.linechart-light {
+    width: 70%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.linechart-dark {
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgb(67, 66, 66);
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.barchart-light {
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #252C58;
+    font-weight: 700;
+}
+
+.barchart-dark {
+    width: 25%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(67, 66, 66);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.linechart-dark .linechart-head {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.linechart-light .linechart-head {
+    display: flex;
+    flex-direction: row;
+    color: #252C58;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.chart-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day-active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #0043FF;
+    font-weight: 600;
+    width: 22%;
+}
+
+.linechart-dark .day-inactive {
+    color: white;
+}
+
+.day-inactive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    width: 30%;
+}
+
+.duration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.attendance-table-light {
+    margin-top: 4vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.attendance-table-dark {
+    margin-top: 4vh;
+    background-color: rgb(67, 66, 66);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.attendance-header-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #252C58;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.attendance-header-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.attendance-title {
+    width: 35%;
+}
+
+.attendance-date-light {
+    width: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D5D9DD;
+    color: #252C58;
+    border-radius: 5px;
+    border: 2px solid #D5D9DD;
+    font-weight: 500;
+    height: 2vh;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.attendance-date-dark {
+    width: 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #D5D9DD;
+    font-weight: 500;
+    height: 2vh;
+    font-size: 12px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .header-dark, .header-light {
+        width: 75%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2vh;
+    }
+    .left-card-container {
+        width: 90%;
+    }
+    .right-card-container {
+        width: 90%;
+    }
+    .attendance-table-dark, .attendance-table-light {
+    margin-top: 4vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    }
+    .charts-container {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .right-container {
+        margin-top: 14vh;
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3vh;
+    }
+    .left-card-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .right-card-container {
+        width: 98%;
+        margin-top: 2vh;
+    }
+    .charts-container {
+       margin: 0 auto;
+        margin-top: 40vh;
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .linechart {
+        width: 95%;
+        display: none;
+    }
+    .barchart {
+        width: 100%;
+    }
+    .attendance-table {
+        margin: 0 auto;
+        margin-top: 5vh;
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right-container {
+        margin-top: 12vh;
+    }
+    .header {
+        font-size: 25px;
+        width: 70%;
+    }
+    .cards-container {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left-card-container {
+        width: 97%;
+        margin: 0 auto;
+        margin-bottom: 2vh;
+    }
+    .right-card-container {
+        width: 96%;
+    }
+    .charts-container {
+        margin-top: 32vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .linechart {
+        display: none;
+    }
+    .barchart {
+        width: 95%;
+        margin-top: 95vh;
+    }
+    .attendance-table {
+        width: 92%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        width: 90%;
+        font-size: 15px;
+    }
+    .cards-container {
+        margin-top: 5vh;
+    }
+    .right-container {
+        margin-top: 20vh;
+    }
+    .left-card-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .charts-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    
+}

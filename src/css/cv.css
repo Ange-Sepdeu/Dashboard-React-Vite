@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.input-left {
+    width: 20%;
+}
+
+.input-right {
+    width: 70%;
+}

@@ -1,0 +1,66 @@
+.top-light {
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    display: flex;
+    color: rgb(112, 112, 112);
+}
+
+.top-dark {
+    padding: 4px;
+    border-radius: 2px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    color: white;
+}
+
+.top-light input, .top-dark input {
+    border: none;
+    background-color: transparent;
+}
+
+.bottom-light input, .bottom-dark input {
+    border: none;
+    background-color: transparent;
+    width: 90%;
+}
+
+.bottom-light input::placeholder {
+    color: #D5D9DD;
+}
+
+.bottom-light {
+    border: 1px solid #D5D9DD;
+    padding: 4px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 37%;
+    color: #D5D9DD;
+    background-color: transparent;
+    display: flex;
+}
+
+.bottom-dark {
+    border: 1px solid #D5D9DD;
+    padding: 4px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 37%;
+    color: white;
+    background-color: transparent;
+    display: flex;
+}

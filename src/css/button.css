@@ -1,0 +1,11 @@
+button {
+    color: #5CD2C6;
+    background-color: #363753;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.4;
+}

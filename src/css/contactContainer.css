@@ -1,0 +1,32 @@
+.contact-container {
+    width: 28%;
+    height: 95vh;
+}
+.below-contacts {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90vh;
+}
+
+@media screen and (max-width:768px) {
+    .main-right {
+        display: none;
+    }
+    .contact-container  {
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(54, 118, 175);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(99, 159, 211);
+    border-radius: 10px;
+}

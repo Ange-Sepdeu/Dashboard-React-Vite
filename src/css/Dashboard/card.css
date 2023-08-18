@@ -1,0 +1,256 @@
+.cardL-container-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 40vh;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+}
+.cardL-container-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 40vh;
+    width: 70%;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+.cardL-header-light {
+    color: #C8CAD5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    width: 95%;
+    font-size: 21px;
+}
+
+.cardL-header-dark {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    width: 95%;
+    font-size: 21px;
+}
+
+.cardL-header-right-text {
+    font-size: 12px;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardL-date-light {
+    color: #252C58;
+    height: 25%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.cardL-date-dark {
+    color: white;
+    height: 25%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card-container-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 14vh;
+    width: 25%;
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    color: #252C58;
+}
+
+.card-container-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 14vh;
+    width: 25%;
+    padding: 25px;
+    background-color: rgb(67, 66, 66);
+    border-radius: 5px;
+    color: white;
+}
+
+.card-header {
+    font-weight: 700;
+    display: flex;
+    font-size: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-light {
+    border-radius: 50%;
+    background-color: #E6EAF5;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    color: blue;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.icon-dark {
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    color: blue;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.middle-text {
+    font-weight: 700;
+    margin-top: 2vh;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    margin-top: 1vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.green {
+    background-color: #97CE71;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 50%;
+}
+.blue {
+    background-color: #CCDDFA;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 50%;
+}
+.red {
+    background-color: #CE7171;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 50%;
+}
+
+.footer-text-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #252C58;
+    font-size: 12px;
+}
+
+.footer-text-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  .card-container-light, .card-container-dark {
+    width: 100%;
+    margin-top: 4vh;
+    height: max-content;
+  }
+  
+  .cardL-container-dark, .cardL-container-light {
+    width: 85%;
+  }
+  .cardL-header {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .cardL-container {
+        width: 83%;
+        margin: 0 auto;
+    }
+    .card-container {
+        width: 37%;
+        margin-bottom: 2vh;
+        height: max-content;
+    }
+    
+    .cardL-header {
+        width: 75%;
+        font-size: 40px;
+    }
+    .cardL-header-right-text {
+        font-size: 25px;
+    }
+    .cardL-date {
+        color: #252C58;
+        height: 25%;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cardL-container {
+        width: 77%;
+        margin:  0 auto;
+        height: max-content;
+    }
+    .cardL-header {
+        font-size: 25px;
+        width: 90%;
+    }
+    .cardL-header-right-text {
+        font-size: 12px;
+    }
+    .cardL-date {
+        font-size: 22px;
+    }
+    .card-container {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .card-container {
+        height: 20vh;
+    }
+    .cardL-container {
+        height: 47vh;
+    }
+    
+}
+
+@media screen and (min-width: 1281px) {
+    
+}
