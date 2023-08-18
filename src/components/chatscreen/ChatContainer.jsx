@@ -3,7 +3,7 @@ import "../../css/chatcontainer.css"
 import Header from './Header'
 import MessageInput from "../inputs/MessageInput"
 import {HeartBroken, Send, SentimentSatisfied } from '@mui/icons-material'
-import MessageContainer from './messageContainer'
+import MessageContainer from './MessageContainer'
 import { ChatContext } from '../../utils/context/chatContext'
 import { correctTime, sortContacts, unShiftContacts } from '../../utils/scripts/script'
 import { botData } from '../../utils/constants/botData'
