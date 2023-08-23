@@ -15,7 +15,7 @@
     padding: 30px;
     height: 40vh;
     width: 70%;
-    background-color: rgb(67, 66, 66);
+    background-color: #1D1E21;
     color: white;
     border-radius: 5px;
 }
@@ -81,7 +81,7 @@
     height: 14vh;
     width: 25%;
     padding: 25px;
-    background-color: rgb(67, 66, 66);
+    background-color: #1D1E21;
     border-radius: 5px;
     color: white;
 }
@@ -108,7 +108,7 @@
 
 .icon-dark {
     border-radius: 50%;
-    background-color: black;
+    background-color: #1D1E21;
     width: 40px;
     text-align: center;
     height: 40px;
@@ -185,14 +185,15 @@
   }
   
   .cardL-container-dark, .cardL-container-light {
-    width: 85%;
+    margin: 0 auto;
+    width: 82%;
   }
   .cardL-header {
     font-size: 28px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 481px) {
     .cardL-container {
         width: 83%;
         margin: 0 auto;
@@ -218,30 +219,39 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .cardL-container {
-        width: 77%;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cardL-container-light, .cardL-container-dark {
         margin:  0 auto;
-        height: max-content;
+        height: 32vh;
     }
-    .cardL-header {
-        font-size: 25px;
-        width: 90%;
+    .cardL-header-light, .cardL-header-dark {
+        font-size: 32px;
+        width: 100%;
     }
     .cardL-header-right-text {
-        font-size: 12px;
+        font-size: 17px;
     }
     .cardL-date {
         font-size: 22px;
     }
-    .card-container {
-        width: 100%;
-        margin-bottom: 2vh;
+    .card-container-light, .card-container-dark {
+        height: 12vh;
+        width: 20%;
     }
-
+    .card-header {
+        font-size: 25px;
+        width: 100%;
+    }
+    .footer-text-dark, .footer-text-light {
+        font-size: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    } 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
     .card-container {
         height: 20vh;
     }

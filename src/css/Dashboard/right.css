@@ -71,7 +71,7 @@
 .linechart-dark {
     width: 70%;
     border-radius: 5px;
-    background-color: rgb(67, 66, 66);
+    background-color: #1D1E21;
     padding: 20px;
     box-sizing: border-box;
     height: 100%;
@@ -92,7 +92,7 @@
     width: 25%;
     height: 100%;
     border-radius: 5px;
-    background-color: rgb(67, 66, 66);
+    background-color: #1D1E21;
     padding: 20px;
     box-sizing: border-box;
     color: #ffffff;
@@ -161,7 +161,7 @@
 
 .attendance-table-dark {
     margin-top: 4vh;
-    background-color: rgb(67, 66, 66);
+    background-color: #1D1E21;
     padding: 20px;
     border-radius: 5px;
 }
@@ -214,7 +214,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #1D1E21;
     color: #ffffff;
     border-radius: 5px;
     border: 1px solid #D5D9DD;
@@ -238,10 +238,12 @@
         margin-top: 2vh;
     }
     .left-card-container {
+        margin: 0 auto;
         width: 90%;
     }
     .right-card-container {
-        width: 90%;
+        margin: 0 auto;
+        width: 93%;
     }
     .attendance-table-dark, .attendance-table-light {
     margin-top: 4vh;
@@ -258,7 +260,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 481px) {
     .header {
         width: 65%;
         margin: 0 auto;
@@ -304,67 +306,106 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .right-container {
-        margin-top: 12vh;
-    }
-    .header {
-        font-size: 25px;
-        width: 70%;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .header-light, .header-dark {
+        font-size: 22px;
+        width: 50%;
+        margin-left: 2vw;
     }
     .cards-container {
-        margin-top: 2vh;
         display: flex;
-        flex-direction: column;
+        width: 99%;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+        margin-top: 2vh;
     }
     .left-card-container {
-        width: 97%;
+        width: 40%;
         margin: 0 auto;
-        margin-bottom: 2vh;
     }
     .right-card-container {
-        width: 96%;
+        width: 60%;
+        display: flex;
+        height: 43vh;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     .charts-container {
-        margin-top: 32vh;
+        margin-top: 2vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width: 95%;
+        margin: 0 auto;
         justify-content: space-between;
     }
-    .linechart {
-        display: none;
+    .linechart-light, .linechart-dark {
+        width: 57%;
+        font-size: 13px;
     }
-    .barchart {
-        width: 95%;
-        margin-top: 95vh;
+    .barchart-dark, .barchart-light {
+        width: 40%;
     }
-    .attendance-table {
-        width: 92%;
+    .attendance-table-dark, .attendance-table-light {
+        width: 93%;
         margin: 0 auto;
+        margin-top: 2vh;
+    }
+    .cards-container {
+        width: 98%;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .header {
-        width: 90%;
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .header-light,.header-dark {
+        width: 30%;
         font-size: 15px;
     }
     .cards-container {
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
     .right-container {
-        margin-top: 20vh;
+        margin-top: 12vh;
     }
     .left-card-container {
-        width: 95%;
+        width: 30%;
         margin: 0 auto;
     }
-    .charts-container {
-        display: none;
+    .right-card-container {
+        width: 70%;
+    }
+    .linechart-dark, .linechart-light {
+        width: 65%;
+        height: max-content;
+    }
+    .barchart-dark, .barchart-light {
+        width: 30%;
+        height: max-content;
     }
 }
 
 @media screen and (min-width: 1281px) {
-    
+    .header-light,.header-dark {
+        width: 30%;
+        font-size: 15px;
+    }
+    .right-container {
+        margin-top: 15vh;
+    }
+    .left-card-container {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .right-card-container {
+        width: 70%;
+    }
+    .linechart-dark, .linechart-light {
+        width: 65%;
+        height: 35vh;
+    }
+    .barchart-dark, .barchart-light {
+        width: 30%;
+        height: 35vh;
+    }    
 }

@@ -26,7 +26,6 @@
     flex-direction: row;
     background-color: black;
     padding: 7px;
-    justify-content: space-between;
     align-items: center;
     width: 99vw;
     margin: 0 auto;
@@ -48,7 +47,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .main-container {
+    .main-container-light, .main-container-dark {
         width: 100%;
     }
     .main-container-content {
@@ -59,7 +58,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 481px) {
     .main-container {
         width: 100%;
     }
@@ -71,14 +70,56 @@
     }   
 }
 
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .main-container-dark, .main-container-light {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-container-sidebar {
+        width: 3%;
+    }
+    .main-container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 93%;
+    }
 }
 
-@media screen and (max-width: 1280px) {
-    
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .main-container-dark, .main-container-light {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-container-sidebar {
+        width: 3%;
+    }
+    .main-container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 92%;
+    }
 }
 
 @media screen and (min-width: 1281px) {
-    
+    .main-container-dark, .main-container-light {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-container-sidebar {
+        width: 3%;
+    }
+    .main-container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 93%;
+    }   
 }
